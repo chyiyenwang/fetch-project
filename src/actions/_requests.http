@@ -1,0 +1,40 @@
+### Login as a user
+POST https://frontend-take-home-service.fetch.com/auth/login
+content-type: application/json
+
+{
+  "name": "Chyi Wang",
+  "email": "chyiyenwang@gmail.com"
+}
+
+
+### Logout as a user
+POST https://frontend-take-home-service.fetch.com/auth/logout
+content-type: application/json
+
+
+
+### Get dog breeds
+GET https://frontend-take-home-service.fetch.com/dogs/breeds
+content-type: application/json
+
+
+### Get dogs
+GET https://frontend-take-home-service.fetch.com/dogs/search
+content-type: application/json
+
+
+### Search dogs by ID
+POST https://frontend-take-home-service.fetch.com/dogs
+content-type: application/json
+
+["Tb_-OZUBBPFf4ZNZzPFL", "zL_-OZUBBPFf4ZNZzPFN"]
+
+
+### locations/search
+POST https://frontend-take-home-service.fetch.com/frontend-take-home-service.fetch.com/locations/search
+content-type: application/json
+
+{
+  "states": ["WA"]
+}
