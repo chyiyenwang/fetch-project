@@ -19,6 +19,11 @@ export default async function Header() {
         </h1>
       </NavbarBrand>
       <NavbarContent justify='end'>
+      <NavbarItem>
+          <Link href="/dogs/search?sort=breed:asc">
+            Search
+          </Link>
+        </NavbarItem>
         <NavbarItem>
           <Link href="/dogs/match">
             Matches
